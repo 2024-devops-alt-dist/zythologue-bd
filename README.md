@@ -2,8 +2,8 @@
 
 Before you begin, ensure that Docker and Docker Compose are installed on your system. You can download Docker Desktop from the official Docker website and follow the installation instructions.
 
-[Install Docker Desktop on Mac](https://docs.docker.com/desktop/setup/install/mac-install/)
-[Install Docker Desktop on Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
+[Install Docker Desktop on Mac](https://docs.docker.com/desktop/setup/install/mac-install/)  
+[Install Docker Desktop on Windows](https://docs.docker.com/desktop/setup/install/windows-install/)  
 [Run Docker Desktop for Windows in a VM or VDI environment](https://docs.docker.com/desktop/setup/vm-vdi/)
 
 ## Step 2: Create a New Directory for Your Project
