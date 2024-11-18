@@ -42,7 +42,6 @@ New-Item docker-compose.yml  # Windows PowerShell
 Open the docker-compose.yml file in your preferred text editor and add the following configuration:
 
 ```plaintext
-version: '3.8'
 services:
   postgres:
     image: postgres:latest
