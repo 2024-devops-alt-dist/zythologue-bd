@@ -45,17 +45,20 @@ Open the docker-compose.yml file in your preferred text editor and add the follo
 services:
   postgres:
     image: postgres:latest
+    container_name: postgres-container
+    restart: always
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: postgres
+      POSTGRES_DB: PostgreSQLdb
     ports:
       - "5432:5432"
     volumes:
-      - pg-data:/var/lib/postgresql/data
+      - PostgreSQLdb:/var/lib/postgresql/data
+      - ./db-scripts:/docker-entrypoint-initdb.d/
 
 volumes:
-  pg-data:
+  PostgreSQLdb:
 ```
 
 ## Step 4: Initialize the PostgreSQL Service
