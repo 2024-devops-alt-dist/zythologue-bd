@@ -1,3 +1,5 @@
+# Zythologue - Base De Données pour Amateurs project
+
 ## Step 1: Install Docker and Docker Compose
 
 Before you begin, ensure that Docker and Docker Compose are installed on your system. You can download Docker Desktop from the official Docker website and follow the installation instructions.
